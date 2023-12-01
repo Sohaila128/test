@@ -83,9 +83,9 @@ function includeFooter() {
   <div class="container">
     <div class="row">
       <div class="col-sm-2">
-        <div class="">
+        <a class="text-decoration-none" href="index.html">
           <img src="images/chemical-guys-logo.svg" alt="">
-        </div>
+        </a>
       </div>
       <div class="col-sm-10 d-flex flex-column flex-md-row">
         <div class="col-sm-3 mx-2">
