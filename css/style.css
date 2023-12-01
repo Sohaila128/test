@@ -27,6 +27,8 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
+  margin: 0 !important;
+  padding: 0 !important;
   font-family: "Barlow Condensed", sans-serif;
   letter-spacing: 1px !important;
 }
