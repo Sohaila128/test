@@ -1,6 +1,6 @@
 @import "variables";
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Gorditas:wght@400;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');html {
-  overflow-x: hidden;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Gorditas:wght@400;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+html {
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
   &::-webkit-scrollbar {
@@ -634,18 +634,22 @@ a{
   text-align: center;
   z-index:2 !important;
 }
-.heart-fill-2{
+.heart-fill-2 {
   right: 20px;
   width: 50px;
   height: 50px;
   font-size: 20px;
   text-align: center !important;
   border: 1px solid;
-  :hover{
-    color: $primaryColor !important;
-    background-color: $primaryColor !important;
-  }
+  color: white !important;
+  background-color: black !important;
 }
+
+.heart-fill-2:hover {
+  color: white !important;
+  background-color: $primaryColor !important;
+}
+
 // ====whats-app===
 .whats-app {
   position: fixed;
@@ -676,9 +680,20 @@ a{
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 775px) {
   .customer-text{
-    font-size:20px !important;
+    font-size:25px !important;
+  }
+  .review-text{
+    font-size:12px !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  .customer-text{
+    font-size:15px !important;
+  }
+  .review-text{
+    font-size:10px !important;
   }
 }
 @media (max-width: 850px) {

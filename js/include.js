@@ -135,7 +135,7 @@ function includeFooter() {
 </footer>
 <!-------footer copyright -------->
 <div class="section-header text-center py-1 d-flex justify-content-center align-items-center letter-spacing bg-black">
-  <p class="text-light text-uppercase mt-2">© All copy rights for Chemical Guys are served by <a href="https://emcan-group.com/en" class="text-uppercase fs-6 text-decoration-none"> Emcan</a> </p>
+  <p class="text-light text-uppercase mt-2 mx-3">© All copy rights for Chemical Guys are served by <a href="https://emcan-group.com/en" class="text-uppercase fs-6 text-decoration-none"> Emcan</a> </p>
 </div>
   `);
 }
@@ -170,10 +170,13 @@ function includeSidebar() {
           <a class="nav-link letter-spacing text-black link-primary" href="offers.html">Offers</a>
       </li>
       <li class="nav-item me-3 fw-bold">
-          <a class="nav-link letter-spacing text-black link-primary" href="order-current.html">Orders</a>
+          <a class="nav-link letter-spacing text-black link-primary" href="myorder.html">Orders</a>
       </li>
       <li class="nav-item me-3 fw-bold">
           <a class="nav-link letter-spacing text-black link-primary" href="best.html">Best Seller</a>
+      </li>
+      <li class="nav-item me-3 fw-bold">
+          <a class="nav-link letter-spacing text-black link-primary" href="mycart.html">Your Cart </a>
       </li>
     
       
