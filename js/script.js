@@ -104,4 +104,3 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-lightGallery(document.querySelector('.projects .box-container'));
