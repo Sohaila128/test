@@ -13,8 +13,8 @@ function includeNavbar() {
   <nav class="navbar navbar-expand-lg navbar-light bg-nav">
     <div class="container">
       
-      <Navbar.Brand href="home.html">
-        <a href="home.html">
+      <Navbar.Brand href="index.html">
+        <a href="index.html">
           <img
           src="./images/chemical-guys-logo.svg"
           alt="logo"
@@ -60,7 +60,7 @@ function includeNavbar() {
 </nav>
 <div class="bg-info d-none d-md-block">
   <div class="d-flex justify-content-evenly container py-2 media-navbar nav-a">
-    <a href="home.html" class="text-decoration-none  text-black letter-spacing-sm fw-bold fw-semibold d-none d-md-block link-primary"> Home</a>
+    <a href="index.html" class="text-decoration-none  text-black letter-spacing-sm fw-bold fw-semibold d-none d-md-block link-primary"> Home</a>
     <a href="categories.html" class="header-contact-item fw-semibold link-primary text-black letter-spacing-sm fw-bold mx-2 text-decoration-none media-navbar">
         <span>
           Categories
@@ -92,7 +92,7 @@ function includeFooter() {
           <h4 class="text-white">Quick links</h4>
           <div class="border-footer mb-3"></div>
           <ul class="list-unstyled">
-            <li><a href="home.html" class="text-decoration-none text-light link-primary">Home</a></li>
+            <li><a href="index.html" class="text-decoration-none text-light link-primary">Home</a></li>
             <li><a href="categories.html" class="text-decoration-none text-light link-primary">Shop</a></li>
             <li><a href="offers.html" class="text-decoration-none text-light link-primary">Offers</a></li>
             <li><a href="order-current.html" class="text-decoration-none text-light link-primary">Orders</a></li>
@@ -145,14 +145,14 @@ function includeSidebar() {
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasWithBothOptionsLabel">
   <div class="offcanvas-header bg-info border">
     <h5 class="offcanvas-title text-black fw-bold letter-spacing" id="offcanvasWithBothOptionsLabel"> 
-    <a class="text-decoration-none" href="home.html"><img src="images/chemical-guys-logo.svg" class="w-75" /> </h5></a>
+    <a class="text-decoration-none" href="index.html"><img src="images/chemical-guys-logo.svg" class="w-75" /> </h5></a>
     <button type="button" class="btn-close text-black bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
 
   <div class="offcanvas-body bg-info">
     <ul class="navbar-nav ms-auto me-auto mb-lg-0 d-flex px-3">
       <li class="nav-item me-3 fw-bold ">
-          <a class="nav-link letter-spacing text-black active link-primary" href="home.html">Home</a>
+          <a class="nav-link letter-spacing text-black active link-primary" href="index.html">Home</a>
       </li>
       <li class="nav-item me-3 fw-bold ">
           <a class="nav-link letter-spacing text-black active link-primary" href="categories.html">Categories</a>
