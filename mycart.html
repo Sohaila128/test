@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Files -->
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- bootstrap-icon css file -->
+    <link rel="stylesheet" href="Assets/bootstrap-icon/bootstrap-icons.css">
+    <!-- font awesome icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animation library css file -->
+    <link rel="stylesheet" href="Assets/aos/aos.css">
+      <!-- swiper css file -->
+      <link rel="stylesheet" href="Assets/swiper/swiper-bundle.min.css">
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/include.js"></script>
+    <!-- input cdn  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/css/intlTelInput.css" rel="stylesheet" media="screen">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/intlTelInput.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.9/js/utils.js"></script>
+
+    <!-- favicon -->
+    <link rel="icon" href="images/chemical-guys-logo.svg">
+    <title> chemical guys  </title>
+  </head>
+ <body>
+   
+
+  
+  <!-- start header and navbar  -->
+  <script>
+    includeNavbar() 
+    </script>
+      <!-- end header and navbar  -->
+
+  
+<section class="my-cart py-5">
+  <div class="container">
+    <table class="table">
+    <thead>
+    <tr>
+    <th>Product</th>
+    <th>Authorized</th>
+    <th>Quantity</th>
+    <th class="text-center">Price</th>
+    <th class="text-center">Total</th>
+    <th> </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td class="col-sm-8 col-md-6">
+    <div class="media">
+    <a class="thumbnail pull-left" href="#"> <img class="media-object" src="images/-0-00000001-SPI_993_16-Front-2000x2000.jpg" style="width: 72px; height: 72px;"> </a>
+    <div class="media-body d-none d-sm-none d-md-block">
+    <span>Status: </span><span class="text-black"><strong>In Stock</strong></span>
+    </div>
+    </div></td>
+    <td class="col-md-1 text-left"><strong class="label label-danger">None</strong></td>
+    <td class="col-sm-1 col-md-1" style="text-align: center">
+    <span class="input-wrapper border rounded-2 text-end">
+      <button id="increment" type="button" class="increment text-danger bg-white rounded-start border-end fs-4 align-items-center d-flex mt-1 mb-1">+</button>
+      <input type="number" value="1" id="quantity" class="fw-semibold quantity text-center" />
+      <button id="decrement" type="button" class="decrement text-danger bg-white rounded-end fs-4 align-items-center d-flex border-start mt-1 mb-1">-</button>
+    </span>
+    </td>
+    <td class="col-sm-1 col-md-1 text-center"><strong>$9.99</strong></td>
+    <td class="col-sm-1 col-md-1 text-center"><strong>$99.99</strong></td>
+    <td class="col-sm-1 col-md-1">
+      <i class="fa-solid fa-trash cursor-pointer text-primary" onclick="deleteRow(this)"></i>
+  </td>
+    </tr>
+    <tr>
+    <td class="col-md-6">
+    <div class="media">
+    <a class="thumbnail pull-left " href="#"> <img class="media-object " src="images/Trio.jpg" style="width: 72px; height: 72px;"> </a>
+    <div class="media-body d-none d-none d-sm-none d-md-block">
+    <span >Status: </span><span class="text-success"><strong>Lorem ipsum in 2 - 3 weeks</strong></span>
+    </div>
+    </div></td>
+    <td class="col-md-1 text-left"><strong class="label label-success ">Authorized</strong></td>
+    <td class="col-md-1" style="text-align: center">
+      <span class="input-wrapper border rounded-2 text-end">
+        <button id="increment" type="button" class="increment text-danger bg-white rounded-start border-end fs-4 align-items-center d-flex mt-1 mb-1">+</button>
+        <input type="number" value="1" id="quantity" class="fw-semibold quantity" />
+        <button id="decrement" type="button" class="decrement text-danger bg-white rounded-end fs-4 align-items-center d-flex border-start mt-1 mb-1">-</button>
+      </span>    </td>
+    <td class="col-md-1 text-center"><strong>$9.99</strong></td>
+    <td class="col-md-1 text-center"><strong>$9.98</strong></td>
+    <td class="col-md-1">
+      <i class="fa-solid fa-trash cursor-pointer text-primary" onclick="deleteRow(this)"></i>
+    </td>
+    </tr>
+    <tr>
+    <td class="col-md-6">
+    <div class="media">
+    <a class="thumbnail pull-left" href="#"> <img class="media-object" src="images/23-10-25-KitsFeature-SmHomepageBanner.jpg" style="width: 72px; height: 72px;"> </a>
+    <div class="media-body d-none d-sm-none d-md-block">
+    <span>Status: </span><span class="text-success"><strong>Lorem ipsum in 2 - 3 weeks</strong></span>
+    </div>
+    </div></td>
+    <td class="col-md-1 text-left"><strong class="label label-success ">Authorized</strong></td>
+    <td class="col-md-1" style="text-align: center">
+      <span class="input-wrapper border rounded-2 text-end">
+        <button id="increment" type="button" class="increment text-danger bg-white rounded-start border-end fs-4 align-items-center d-flex mt-1 mb-1">+</button>
+        <input type="number" value="1" id="quantity" class="fw-semibold quantity" />
+        <button id="decrement" type="button" class="decrement text-danger bg-white rounded-end fs-4 align-items-center d-flex border-start mt-1 mb-1">-</button>
+      </span>
+    </td>
+    <td class="col-md-1 text-center"><strong>$999.99</strong></td>
+    <td class="col-md-1 text-center"><strong>$999.98</strong></td>
+    <td class="col-md-1">
+      <i class="fa-solid fa-trash cursor-pointer text-primary" onclick="deleteRow(this)"></i>
+  </td>
+    </tr>					
+  </tbody>
+</table>
+<div class="card bg-white border-1  rounded-4 p-3">
+  <h2 class="text-uppercase mb-3 border-start border-4 border-primary"> <span class="mx-2"> Order Summary  </span> </h2>
+
+  <div class="card-body d-flex flex-column">
+    <div class="d-flex justify-content-between">
+      <h6 class="text-black text-uppercase fw-semibold">Vat (10%) :</h6> <h6 class="text-black fw-bold text-uppercase">15.00 BHD</h6>
+    </div>
+  
+    
+    <div class="d-flex justify-content-between">
+      <h6 class="text-black text-uppercase fw-semibold">Subtotal : </h6> <h6 class="text-black fw-bold text-uppercase">20.00 BHD</h6>
+    </div>
+    
+  </div>
+
+
+</div>
+<a class="text-decoration-none text-end d-flex justify-content-end" href="cart.html">
+  <button class="btn btn-danger letter-spacing mt-3 rounded-2 fw-bold text-uppercase">Buy Now</button>
+</a>
+  </div>
+</section>
+
+
+
+
+
+
+<!---------- start footer  ---------->
+<script>
+  includeFooter();
+</script>
+<!------- end footer ------------>
+
+  <!--========= start sidebar  =========-->
+  <script>
+    includeSidebar()
+  </script>
+  <!--========= end sidebar  =========-->
+  <!--====== BACK TO TP PART START ======-->
+  <button
+  type="button"
+  class="btn-back-to-top btn btn-primary text-white rounded-circle py-2 px-2"
+  >
+  <i class="bi bi-chevron-double-up"></i></button>   
+  
+    <a href="https://wa.me/+97334479384" class="whats-app" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Whatsapp">
+      <i class="bi bi-whatsapp my-float"></i>
+  </a>
+</a>
+  <!--====== BACK TO TP PART ENDS ======-->
+  
+
+    <!-- JS Files -->
+    <!-- animation library js file -->
+    <script src="Assets/aos/aos.js"></script>
+    <!-- bootstrap js file -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+      <!-- swiper js file -->
+    <script src="Assets/swiper/swiper-bundle.min.js"></script>
+    <!-- main js file -->
+    <script src="js/script.js"></script>  
+    <script src="js/input.js"></script>  
+    <script src="js/swiper.js"></script>  
+    <script>
+      function deleteRow(icon) {
+          // Get the parent row and remove it
+          var row = icon.closest('tr');
+          row.parentNode.removeChild(row);
+      }
+  </script>
+   
+  </body>
+</html>
+
